@@ -25,7 +25,6 @@ class ProductServiceTest {
         final String name = "상품명";
         final int price = 1000;
         final DiscountPolicy discountPolicy = DiscountPolicy.NONE;
-        final AddProductRequest rRequest = new AddProductRequest(name, price, discountPolicy);
         final AddProductRequest request = new AddProductRequest(name, price, discountPolicy);
         return request;
     }
