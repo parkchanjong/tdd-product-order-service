@@ -1,6 +1,6 @@
 package com.example.demo.product;
 
-class ProductAdapter implements ProductPort {
+public class ProductAdapter implements ProductPort {
 
     private final ProductRepository productRepository;
 
@@ -9,7 +9,7 @@ class ProductAdapter implements ProductPort {
     }
 
     @Override
-    public void save(final Product poduct) {
-        ProductRepository.save(poduct);
+    public void save(final Product product) {
+        productRepository.save(product);
     }
 }

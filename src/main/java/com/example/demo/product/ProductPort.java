@@ -1,6 +1,6 @@
 package com.example.demo.product;
 
-interface ProductPort {
+public interface ProductPort {
 
-    void save(final Product poduct);
+    void save(final Product product);
 }

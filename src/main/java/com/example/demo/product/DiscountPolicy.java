@@ -1,3 +1,3 @@
 package com.example.demo.product;
 
-enum DiscountPolicy {NONE}
+public enum DiscountPolicy {NONE}
