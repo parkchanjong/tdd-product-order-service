@@ -2,7 +2,7 @@ package com.example.demo.product;
 
 import org.springframework.util.Assert;
 
-class Product {
+public class Product {
 
     private final String name;
     private final int price;
